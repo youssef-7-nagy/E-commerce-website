@@ -23,15 +23,20 @@ body {
 }
 
 .navbar a {
-    color: #fff;
-    text-decoration: underline;
-    margin-left: 1rem;
+   text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
-   color: red;
-   cursor: pointer;
+    background: linear-gradient(45deg, #7e8bff, #ff758c);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 118, 155, 0.4);
 }
 
 /* Hero Section */
@@ -120,3 +125,4 @@ body {
     color: #fff;
     padding: 1rem 0;
 }
+
